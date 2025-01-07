@@ -7,15 +7,22 @@ static int
 __i2c_send(int fd, struct i2c_rdwr_ioctl_data *data)
 {
 	if (fd < 0)
+		printf("err1\n");
 		return -1;
 
 	if (data == NULL)
+		printf("err2\n");
 		return -1;
 
 	if (data->msgs == NULL || data->nmsgs == 0)
+		printf("err3\n");
 		return -1;
 	
-	return ioctl(fd, I2C_RDWR, (unsigned long)data) ;
+	int out = ioctl(fd, I2C_RDWR, (unsigned long)data);
+
+	printf("Out is %d\n", out);
+
+	return out;
 }
 
 static int
@@ -71,7 +78,7 @@ NULL) {
 	data->msgs[1].buf[0] = 0;
 
 	if ((ret = __i2c_send(fd, data)) < 0)
-		printf("AGot errexit0\n");
+		// printf("AGot errexit0\n");
 		goto errexit0;
 
 	for(i = 0 ;i < data->msgs[1].len; i++)
