@@ -46,14 +46,17 @@ NULL)
 	if ((data->msgs = (struct i2c_msg *)malloc(data->nmsgs * sizeof(struct i2c_msg))) == 
 NULL) {
 		ret = -1;
+		printf("AGot errexit3\n");
 		goto errexit3;
 	}
 	if ((data->msgs[0].buf = (unsigned char *)malloc(sizeof(unsigned char))) == NULL) {
 		ret = -1;
+		printf("AGot errexit2\n");
 		goto errexit2;
 	}
 	if ((data->msgs[1].buf = (unsigned char *)malloc(sizeof(unsigned char))) == NULL) {
 		ret = -1;
+		printf("AGot errexit1\n");
 		goto errexit1;
 	}
 
@@ -68,22 +71,19 @@ NULL) {
 	data->msgs[1].buf[0] = 0;
 
 	if ((ret = __i2c_send(fd, data)) < 0)
+		printf("AGot errexit0\n");
 		goto errexit0;
 
 	for(i = 0 ;i < data->msgs[1].len; i++)
 		val[i] = data->msgs[1].buf[i];
 
 errexit0:
-	printf("AGot errexit0\n");
 	free(data->msgs[1].buf);
 errexit1:
-	printf("AGot errexit1\n");
 	free(data->msgs[0].buf);
 errexit2:
-	printf("AGot errexit2\n");
 	free(data->msgs);
 errexit3:
-	printf("AGot errexit3\n");
 	free(data);
 
 	return ret;
