@@ -74,12 +74,16 @@ NULL) {
 		val[i] = data->msgs[1].buf[i];
 
 errexit0:
+	printf("AGot errexit0\n");
 	free(data->msgs[1].buf);
 errexit1:
+	printf("AGot errexit1\n");
 	free(data->msgs[0].buf);
 errexit2:
+	printf("AGot errexit2\n");
 	free(data->msgs);
 errexit3:
+	printf("AGot errexit3\n");
 	free(data);
 
 	return ret;
