@@ -18,11 +18,7 @@ __i2c_send(int fd, struct i2c_rdwr_ioctl_data *data)
 		printf("err3\n");
 		return -1;
 	
-	int out = ioctl(fd, I2C_RDWR, (unsigned long)data);
-
-	printf("Out is %d\n", out);
-
-	return out;
+	return ioctl(fd, I2C_RDWR, (unsigned long)data) ;
 }
 
 static int
