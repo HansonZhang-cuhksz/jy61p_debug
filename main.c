@@ -44,8 +44,8 @@ int main(int argc,char* argv[]){
 
 	while (1)
 	{
-		uint8_t debug = 0;
-		WitReadReg(AX, 12, &debug);
+		uint8_t debug;
+		debug = WitReadReg(AX, 12);
 		if(debug)
 			printf("WitReadReg passed\n");
 		usleep(500000);
