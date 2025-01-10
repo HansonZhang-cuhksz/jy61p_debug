@@ -337,8 +337,10 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
     switch(s_uiProtoclo)
     {
 		case WIT_PROTOCOL_JY61: 
+            printf("Case 1 taken");
 			  return WIT_HAL_INVAL;
         case WIT_PROTOCOL_NORMAL:
+            printf("Case 2 taken");
 			  if(uiReadNum > 4)return WIT_HAL_INVAL;
               if(p_WitSerialWriteFunc == NULL)return WIT_HAL_EMPTY;
               ucBuff[0] = 0xFF;
@@ -349,7 +351,9 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
               p_WitSerialWriteFunc(ucBuff, 5);
 		   break;
         case WIT_PROTOCOL_905x_MODBUS:
+            printf("Case 3 taken");
         case WIT_PROTOCOL_MODBUS:
+            printf("Case 4 taken");
 			  if(p_WitSerialWriteFunc == NULL)return WIT_HAL_EMPTY;
               usTemp = uiReadNum << 1;
               if((usTemp + 5) > WIT_DATA_BUFF_SIZE)return WIT_HAL_NOMEM;
@@ -365,7 +369,9 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
               p_WitSerialWriteFunc(ucBuff, 8);
 		   break;
 	    case WIT_PROTOCOL_905x_CAN:
+            printf("Case 5 taken");
         case WIT_PROTOCOL_CAN:
+            printf("Case 6 taken");
 			  if(uiReadNum > 3)return WIT_HAL_INVAL;
               if(p_WitCanWriteFunc == NULL)return WIT_HAL_EMPTY;
               ucBuff[0] = 0xFF;
@@ -376,6 +382,7 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
               p_WitCanWriteFunc(s_ucAddr, ucBuff, 5);
            break;
         case WIT_PROTOCOL_I2C:
+            printf("Case 7 taken");
 		      if(p_WitI2cReadFunc == NULL)return WIT_HAL_EMPTY;
               usTemp = uiReadNum << 1;
               if(WIT_DATA_BUFF_SIZE < usTemp)return WIT_HAL_NOMEM;
@@ -390,6 +397,7 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
               }
 			break;
 		default: 
+            printf("Case default taken");
                  return WIT_HAL_INVAL;
     }
     s_uiReadRegIndex = uiReg;
