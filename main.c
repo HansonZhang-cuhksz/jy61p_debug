@@ -45,8 +45,8 @@ int main(int argc,char* argv[]){
 	while (1)
 	{
 		// WitReadReg(AX, 12);
-		WitReadReg(AX, 6);
-		WitReadReg(Roll, 3);
+		// WitReadReg(AX, 6);
+		// WitReadReg(Roll, 3);
 		usleep(500000);
 		if(s_cDataUpdate)
 		{
