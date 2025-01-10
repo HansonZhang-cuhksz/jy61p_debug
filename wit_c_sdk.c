@@ -398,7 +398,9 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
 		default: 
                  return WIT_HAL_INVAL;
     }
+    printf("Switch done\n");
     s_uiReadRegIndex = uiReg;
+    printf("s_uiReadRegIndex got\n");
 
     return WIT_HAL_OK;
 }
