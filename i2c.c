@@ -7,15 +7,12 @@ static int
 __i2c_send(int fd, struct i2c_rdwr_ioctl_data *data)
 {
 	if (fd < 0)
-		printf("err1\n");
 		return -1;
 
 	if (data == NULL)
-		printf("err2\n");
 		return -1;
 
 	if (data->msgs == NULL || data->nmsgs == 0)
-		printf("err3\n");
 		return -1;
 	
 	return ioctl(fd, I2C_RDWR, (unsigned long)data) ;
@@ -49,17 +46,14 @@ NULL)
 	if ((data->msgs = (struct i2c_msg *)malloc(data->nmsgs * sizeof(struct i2c_msg))) == 
 NULL) {
 		ret = -1;
-		printf("AGot errexit3\n");
 		goto errexit3;
 	}
 	if ((data->msgs[0].buf = (unsigned char *)malloc(sizeof(unsigned char))) == NULL) {
 		ret = -1;
-		printf("AGot errexit2\n");
 		goto errexit2;
 	}
 	if ((data->msgs[1].buf = (unsigned char *)malloc(sizeof(unsigned char))) == NULL) {
 		ret = -1;
-		printf("AGot errexit1\n");
 		goto errexit1;
 	}
 
@@ -74,7 +68,6 @@ NULL) {
 	data->msgs[1].buf[0] = 0;
 
 	if ((ret = __i2c_send(fd, data)) < 0)
-		// printf("AGot errexit0\n");
 		goto errexit0;
 
 	for(i = 0 ;i < data->msgs[1].len; i++)
@@ -127,13 +120,10 @@ NULL)
 		goto errexit0;
 
 errexit0:
-	printf("Got errexit0\n");
 	free(data->msgs[0].buf);
 errexit1:
-	printf("Got errexit1\n");
 	free(data->msgs);
 errexit2:
-	printf("Got errexit2\n");
 	free(data);
 
 	return ret;

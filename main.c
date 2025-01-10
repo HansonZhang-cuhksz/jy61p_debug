@@ -41,6 +41,9 @@ int main(int argc,char* argv[]){
 	WitDelayMsRegister(Delayms);
 	printf("\r\n********************** wit-motion IIC example  ************************\r\n");
 	AutoScanSensor();
+
+	return 0;
+
 	while (1)
 	{
 		WitReadReg(AX, 12);
