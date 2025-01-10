@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language>
+    <head>
+        <code>ru-RU</code>
+        <name>Русский</name>
+        <provider src="XXX translation provided by XXX">Russian translation provided by Andrey aka andrey_brest</provider>
+        <info src="You need to restart to make the language settings take effect!">Перезапустите программу, чтобы настройки вступили в силу!</info>
+    </head>
+    <vis>
+        <item src="+PulseWidth">+PulseWidth</item>
+        <item src="-PulseWidth">-PulseWidth</item>
+        <item src="2.5~5V CMOS Compatible"></item>
+        <item src="A Setting is Invalid">A Setting is Invalid</item>
+        <item src="About">О программе</item>
+        <item src="Add">Add</item>
+        <item src="ALL">Все</item>
+        <item src="All Protocol Analyzers">All Protocol Analyzers</item>
+        <item src="All Rights Reserved.">Все права защищены</item>
+        <item src="All time">Всё время</item>
+        <item src="An error occurred">An error occurred</item>
+        <item src="Analyzer">Анализатор</item>
+        <item src="Analyzers">Анализаторы</item>
+        <item src="Animate zooming">Анимация масштабирования</item>
+        <item src="Are you sure to quit?">Are you sure to quit?</item>
+        <item src="Auto restart sampling"></item>
+        <item src="Automatic update failed.">Automatic update failed.</item>
+        <item src="Timing markers">Метки времени</item>
+        <item src="Bin">BIN ( бинарный )</item>
+        <item src="Binary file">BIN файл</item>
+        <item src="Byte">Байт</item>
+        <item src="Cancel">Отмена</item>
+        <item src="Cannot keep up with this sample rate.">Cannot keep up with this sample rate.</item>
+        <item src="Channel"> Канал</item>
+        <item src="Channel Enable Settings">Активные каналы</item>
+        <item src="Channel Height">Размер</item>
+        <item src="Channel Quick Select">Канал быстрого выбора</item>
+        <item src="Channel Select">Выбор канала</item>
+        <item src="Check for Updates">Проверка обновлений</item>
+        <item src="Check for updates on launch">Проверка обновлений при старте</item>
+        <item src="Clear settings when the software starts next time"></item>
+        <item src="Close">Закрыть</item>
+        <item src="Connected">Подключен</item>
+        <item src="CSV file">CSV файл</item>
+        <item src="Custom I/O">Custom I/O</item>
+        <item src="Data reading">Чтение данных</item>
+        <item src="Data Review">Обзор данных</item>
+        <item src="Dec">DEC ( десятичный )</item>
+        <item src="Decoded Results">Результаты декодирования</item>
+        <item src="Device connect">Подключение</item>
+        <item src="Device Connected">Подключено</item>
+        <item src="Device connecting, please wait">Подключение, ожидайте</item>
+        <item src="Device Options">Устройства Настройки</item>
+        <item src="Device Supported List">Список поддерживаемых устройств</item>
+        <item src="Device Disconnected">Нет связи</item>
+        <item src="Disable">Запрещено</item>
+        <item src="Display">Отображение</item>
+        <item src="Display Format">Формат отображения</item>
+        <item src="DutyCycle">Рабочий цикл</item>
+        <item src="Edit">Редактировать</item>
+        <item src="Enable">Разрешено</item>
+        <item src="Ending Time[s]">Время окончания[сек]</item>
+        <item src="Even if the trigger is not met"></item>
+        <item src="Expected Sample Time">Ожидаемое время выборки</item>
+        <item src="Export">Экспорт</item>
+        <item src="Export Data">Экспорт данных</item>
+        <item src="Export File Select">Экспорт выбранного файла</item>
+        <item src="Falling Edge">Спад</item>
+        <item src="FallTime">FallTime</item>
+        <item src="Frequency">Частота</item>
+        <item src="File open failed.">Ошибка открытия файла.</item>
+        <item src="File save failed.">Ошибка сохранения файла.</item>
+        <item src="Find a new version: ">Найдена новая версия:</item>
+        <item src="for more information.">для дополнительной информации.</item>
+        <item src="Glitch Filter Settings">Настройки фильтра</item>
+        <item src="Hex">HEX ( шестнадцатиричный )</item>
+        <item src="Hide Channel Boundary Lines">Скрыть границу канала</item>
+        <item src="I/O Standard"></item>
+        <item src="In waveform window">В окне формы волны</item>
+        <item src="In status bar">В строке состояния</item>
+        <item src="It's the latest version, no updates required.">Вы используете последнюю версию программы. Обновление не требуется.</item>
+        <item src="Item Select">Item Select</item>
+        <item src="Keep exactly the same position as before (if possible)"></item>
+        <item src="Keep settings when the software starts next time"></item>
+        <item src="Kingst Electronics Co., Ltd.">Kingst Electronics Co., Ltd.</item>
+        <item src="Language">Язык</item>
+        <item src="Loading file, please wait">Загрузка файла, ожидайте</item>
+        <item src="Location">Location</item>
+        <item src="Logic Analyzer"></item>
+        <item src="Looking for updates, please wait">Проверка обновлений, ожидайте</item>
+        <item src="Maximum sample rate is">Максимальная частота дискретизации</item>
+        <item src="Measurements">Измерения</item>
+        <item src="Model Select">Выбор устройства</item>
+        <item src="More Analyzers">Дополнительно...(другие анализаторы)</item>
+        <item src="More Settings">Больше настроек</item>
+        <item src="Move next edge to center">Move next edge to center</item>
+        <item src="Move previous edge to center">Move previous edge to center</item>
+        <item src="Negative Pulses">( -) импульсы</item>
+        <item src="None">Нет</item>
+        <item src="Normal Mode"></item>
+        <item src="Not Supported">Not Supported</item>
+        <item src="OK">ОК</item>
+        <item src="Only use the computer's memory to store the sampled data, the data is uploaded in real time."></item>
+        <item src="Only when the trigger is met"></item>
+        <item src="Open">Открыть</item>
+        <item src="Open File">Открыть файл</item>
+        <item src="Options">Настройки</item>
+        <item src="Out of memory, Sample abort.">Out of memory, Sample abort.</item>
+        <item src="Overshoot">Overshoot</item>
+        <item src="Period">Период</item>
+        <item src="Place this setting on the toolbar.">Поместите этот параметр на панель инструментов.</item>
+        <item src="Please click the link below to download.">Please click the link below to download.</item>
+        <item src="Please enter an integer in the range">Введите целое число в диапазоне </item>
+        <item src="Please select at least one channel.">Please select at least one channel.</item>
+        <item src="Please try to reduce the sample rate.">Please try to reduce the sample rate.</item>
+        <item src="Positive Pulses">(+) импульсы</item>
+        <item src="Pre-sampling">Предварительная выборка</item>
+        <item src="Preshoot">Preshoot</item>
+        <item src="Pulse Counters">Счетчики импульсов</item>
+        <item src="PWM Setting">PWM настройки</item>
+        <item src="Quitting can lead to unpredictable errors.">Quitting can lead to unpredictable errors.</item>
+        <item src="Remove">Удалить</item>
+        <item src="Remove all">Удалить все</item>
+        <item src="Reset All Channels">Сброс всех каналов</item>
+        <item src="RiseTime">RiseTime</item>
+        <item src="Rising Edges">Фронт</item>
+        <item src="Sample Depth"></item>
+        <item src="Sample Depth (samples per acquisition)"></item>
+        <item src="Sample Mode"></item>
+        <item src="Sample Mode Select"></item>
+        <item src="Sample Rate"></item>
+        <item src="Sample Rate (samples per second)"></item>
+        <item src="Sample start">Sample start</item>
+        <item src="Samples"></item>
+        <item src="Sampling">Выборка</item>
+        <item src="Sampling progress display">Отображение прогресса выборки</item>
+        <item src="Save Data">Сохранить данные</item>
+        <item src="Save File">Сохранить файл</item>
+        <item src="Saving file, please wait">Сохранение файла, ожидайте</item>
+        <item src="Save Settings">Сохранить настройки</item>
+        <item src="Search">Поиск</item>
+        <item src="Select">Выбор</item>
+        <item src="Show Real Time Status">Показать статус в реальном времени</item>
+        <item src="Show time zero, with previous zoom level">Show time zero, with previous zoom level</item>
+        <item src="Simulation data will be generated.">Будут созданы аналоговые данные.</item>
+        <item src="Sorry, timing marker pairs has reached the maximum number.">Sorry, timing marker pairs has reached the maximum number.</item>
+        <item src="Sorry, there is no measurable data.">Sorry, there is no measurable data.</item>
+        <item src="Sorry, there is no data that can be exported.">Извините, нет данных для экспорта.</item>
+        <item src="Sorry, there is no data that can be saved.">Извините, нет данных для сохранения.</item>
+        <item src="Specify time interval">Specify time interval</item>
+        <item src="Start single sampling"></item>
+        <item src="Starting Time[s]">Время начала[сек]</item>
+        <item src="Stop">Стоп</item>
+        <item src="Stop sampling"></item>
+        <item src="Stream Mode"></item>
+        <item src="System Information">Информация о системе</item>
+        <item src="Text file">TXT файл</item>
+        <item src="The effective range of threshold voltage is ">The effective range of threshold voltage is </item>
+        <item src="The effective range of PWM:[0.1Hz,20MHz], duty cycle:[0,1].">The effective range of PWM:[0.1Hz,20MHz], duty cycle:[0,1].</item>
+        <item src="The update is not complete.">The update is not complete.</item>
+        <item src="This mode can provide higher sample rate."></item>
+        <item src="This mode can provide larger sample depth."></item>
+        <item src="Time Select">The update is not complete.Time Select</item>
+        <item src="Timing Markers">Метки времени</item>
+        <item src="Timing Marker Pairs">Метки времени</item>
+        <item src="Trigger Position">Позиция триггера</item>
+        <item src="Trigger position centered">Триггер по центру</item>
+        <item src="Trigger position setting failed.">Trigger position setting failed.</item>
+        <item src="Disconnected">Нет связи</item>
+        <item src="Update check failed.">Ошибка проверки обновлений.</item>
+        <item src="Update Logs">Обновление журнала</item>
+        <item src="Update now?">Обновить сейчас?</item>
+        <item src="Updates">Обновления</item>
+        <item src="Use Color for Waveform">Использовать цвет для формы волны</item>
+        <item src="Use the device's memory as the sample buffer, the data is uploaded to computer after sampled."></item>
+        <item src="User Guide">Гид пользователя</item>
+        <item src="Vamp">Vamp</item>
+        <item src="Vavg">Vavg</item>
+        <item src="Vbase">Vbase</item>
+        <item src="Version: ">Версия:</item>
+        <item src="View state after new sampling">Просмотр состояния после новой выборки</item>
+        <item src="Visit">Посетить</item>
+        <item src="Data File">файл данных</item>
+        <item src="Settings File">файл настроек</item>
+        <item src="Vmax">Vmax</item>
+        <item src="Vmin">Vmin</item>
+        <item src="Vpp">Vpp</item>
+        <item src="Vrms">Vrms</item>
+        <item src="Vth:">Напряжение:</item>
+        <item src="Vtop">Vtop</item>
+        <item src="Waiting for trigger">Waiting for trigger</item>
+        <item src="Warning">Предупреждение</item>
+        <item src="When a channel is checked, pulses less than the set width will be filtered out."></item>
+        <item src="Width">Длительность</item>
+        <item src="You may need to install a PDF reader to open the user guide.">Возможно, вам придется установить PDF-ридер, чтобы открыть руководство пользователя.</item>
+        <item src="Zoom all the way out">Zoom all the way out</item>
+        <item src="Zoom in">Увеличить</item>
+        <item src="Zoom out">Уменьшить</item>
+        <item src="Zoom to full screen">Увеличить на весь экран</item>
+    </vis>
+    <analyzers>
+        <item class="1-Wire" src="Maxim 1-Wire Interface">Maxim 1-Wire Interface</item>
+        <item class="1-Wire" src="Overdrive only mode">Overdrive only mode</item>
+        <item class="1-Wire" src="The analyzer will only operate at high speed overdrive mode.">The analyzer will only operate at high speed overdrive mode.</item>
+        <item class="Atmel SWI" src="Single Wire Interface SDA">Single Wire Interface SDA</item>
+        <item class="Atmel SWI" src="Decode level">Decode level</item>
+        <item class="Atmel SWI" src="Level of the communication to decode">Level of the communication to decode</item>
+        <item class="Atmel SWI" src="Please select an input for the SDA channel.">Please select an input for the SDA channel.</item>
+        <item class="CAN" src="Controller Area Network - Input">CAN - вход</item>
+        <item class="CAN" src="Bit Rate (Bits/S)">Скорость (бит/сек)</item>
+        <item class="CAN" src="Specify the bit rate in bits per second.">Укажите скорость передачи бит/сек</item>
+        <item class="CAN" src="Inverted (CAN High)">Инвертированный (CAN-H)</item>
+        <item class="CAN" src="Use this option when recording CAN High directly">Используйте эту опцию при записи CAN-H</item>
+        <item class="CAN" src="Please select a channel for the CAN interface">Please select a channel for the CAN interface</item>
+        <item class="DMX-512" src="Standard DMX-512">Standard DMX-512"</item>
+        <item class="DMX-512" src="Accept DMX-1986 4us MAB">Accetta DMX-1986 4us MAB"</item>
+        <item class="DMX-512" src="Accept 4us MAB as per USITT DMX-512 (1986)">Accept 4us MAB as per USITT DMX-512 (1986)</item>
+        <item class="HDMI CEC" src="HDMI Consumer Electronics Control (CEC)">HDMI Consumer Electronics Control (CEC)</item>
+        <item class="I2C" src="Serial Data Line">Serial Data Line</item>
+        <item class="I2C" src="Serial Clock Line">Serial Clock Line</item>
+        <item class="I2C" src="Address Display">Address Display</item>
+        <item class="I2C" src="Specify how you would like the I2C address to be displayed.">Specify how you would like the I2C address to be displayed.</item>
+        <item class="I2C" src="-bit, read/write bit included [default]">-bit, read/write bit included [default]</item>
+        <item class="I2C" src="-bit, read/write bit set as 0">-bit, read/write bit set as 0</item>
+        <item class="I2C" src="-bit, address bits only">-bit, address bits only</item>
+        <item class="I2C" src="SDA and SCL can't be assigned to the same input.">SDA and SCL can't be assigned to the same input.</item>
+        <item class="I2S/PCM" src="Clock, aka I2S SCK - Continuous Serial Clock, aka Bit Clock">Clock, aka I2S SCK - Continuous Serial Clock, aka Bit Clock</item>
+        <item class="I2S/PCM" src="Frame Delimiter / aka I2S WS - Word Select, aka Sampling Clock">Frame Delimiter / aka I2S WS - Word Select, aka Sampling Clock</item>
+        <item class="I2S/PCM" src="Data, aka I2S SD - Serial Data">Data, aka I2S SD - Serial Data</item>
+        <item class="I2S/PCM" src="Specify if data comes in MSB first, or LSB first.">Specify if data comes in MSB first, or LSB first.</item>
+        <item class="I2S/PCM" src="DATA arrives MSB first">DATA arrives MSB first</item>
+        <item class="I2S/PCM" src="DATA arrives LSB first">DATA arrives LSB first</item>
+        <item class="I2S/PCM" src="Specify if data is valid (should be read) on the rising, or falling clock edge.">Specify if data is valid (should be read) on the rising, or falling clock edge.</item>
+        <item class="I2S/PCM" src="DATA is valid (should be read) on the CLOCK falling edge">DATA is valid (should be read) on the CLOCK falling edge</item>
+        <item class="I2S/PCM" src="DATA is valid (should be read) on the CLOCK rising edge">DATA is valid (should be read) on the CLOCK rising edge</item>
+        <item class="I2S/PCM" src="Specify the number of audio bits/word.    Any additional bits will be ignored">Specify the number of audio bits/word.    Any additional bits will be ignored</item>
+        <item class="I2S/PCM" src="Bits/Word (Audio bit depth, bits/sample)">Bits/Word (Audio bit depth, bits/sample)</item>
+        <item class="I2S/PCM" src="Specify the type of frame signal used.">Specify the type of frame signal used.</item>
+        <item class="I2S/PCM" src="FRAME signal transitions (changes state) twice each word.">FRAME signal transitions (changes state) twice each word.</item>
+        <item class="I2S/PCM" src="FRAME signal transitions (changes state) once each word. (I2S, PCM standard)">FRAME signal transitions (changes state) once each word. (I2S, PCM standard)</item>
+        <item class="I2S/PCM" src="FRAME signal transitions(changes state) twice every four (4) words.">FRAME signal transitions(changes state) twice every four (4) words.</item>
+        <item class="I2S/PCM" src="Specify whether data bits are left or right aligned wrt FRAME edges. Only needed if more bits are sent than needed each frame, and additional bits are ignored.">Specify whether data bits are left or right aligned wrt FRAME edges. Only needed if more bits are sent than needed each frame, and additional bits are ignored.</item>
+        <item class="I2S/PCM" src="DATA bits are left-aligned with respect to FRAME edges">DATA bits are left-aligned with respect to FRAME edges</item>
+        <item class="I2S/PCM" src="DATA bits are right-aligned with respect to FRAME edges">DATA bits are right-aligned with respect to FRAME edges</item>
+        <item class="I2S/PCM" src="Specify the bit alignment type to use.">Specify the bit alignment type to use.</item>
+        <item class="I2S/PCM" src="Bits are right-shifted by one with respect to FRAME edges (I2S typical)">Bits are right-shifted by one with respect to FRAME edges (I2S typical)</item>
+        <item class="I2S/PCM" src="Bits are not shifted with respect to FRAME edges (PCM typical)">Bits are not shifted with respect to FRAME edges (PCM typical)</item>
+        <item class="I2S/PCM" src="Select whether samples are unsigned or signed values (only shows up if the display type is decimal)">Select whether samples are unsigned or signed values (only shows up if the display type is decimal)</item>
+        <item class="I2S/PCM" src="Samples are unsigned numbers">Samples are unsigned numbers</item>
+        <item class="I2S/PCM" src="Samples are signed (two's compliment)">Samples are signed (two's compliment)</item>
+        <item class="I2S/PCM" src="Interpret samples as signed integers -- only when display type is set to decimal">Interpret samples as signed integers -- only when display type is set to decimal</item>
+        <item class="I2S/PCM" src="Select whether WS high is channel 1 or channel 2">Select whether WS high is channel 1 or channel 2</item>
+        <item class="I2S/PCM" src="Word select high is channel 2 (right) (I2S typical)">Word select high is channel 2 (right) (I2S typical)</item>
+        <item class="I2S/PCM" src="Word select high is channel 1 (left) (inverted)">Word select high is channel 1 (left) (inverted)</item>
+        <item class="I2S/PCM" src="Please select a channel for I2S/PCM CLOCK signal">Please select a channel for I2S/PCM CLOCK signal</item>
+        <item class="I2S/PCM" src="Please select a channel for I2S/PCM FRAME signal">Please select a channel for I2S/PCM FRAME signal</item>
+        <item class="I2S/PCM" src="Please select a channel for I2S/PCM DATA signal">Please select a channel for I2S/PCM DATA signal</item>
+        <item class="I2S/PCM" src="Please select different channels for the I2S/PCM signals">Please select different channels for the I2S/PCM signals</item>
+        <item class="IR-NEC" src="Standard InfraRed">Standard InfraRed</item>
+        <item class="IR-NEC" src="Bit Rate (Bits/S)">Скорость (бит/сек)</item>
+        <item class="IR-NEC" src="Specify the bit rate used.">Specify the bit rate used.</item>
+        <item class="IR-NEC" src="Protocol Type">Тип протокола</item>
+        <item class="JTAG" src="JTAG Test mode select">JTAG Test mode select</item>
+        <item class="JTAG" src="JTAG Test clock">JTAG Test clock</item>
+        <item class="JTAG" src="JTAG Test data input">JTAG Test data input</item>
+        <item class="JTAG" src="JTAG Test data output">JTAG Test data output</item>
+        <item class="JTAG" src="JTAG Test reset">JTAG Test reset</item>
+        <item class="JTAG" src="TAP initial state">TAP initial state</item>
+        <item class="JTAG" src="JTAG TAP controller initial state">JTAG TAP controller initial state</item>
+        <item class="JTAG" src="Shift-IR bit order">Shift-IR bit order</item>
+        <item class="JTAG" src="Instruction register shift bit order">Instruction register shift bit order</item>
+        <item class="JTAG" src="Most significant bit first">Most significant bit first</item>
+        <item class="JTAG" src="Least significant bit first">Least significant bit first</item>
+        <item class="JTAG" src="Shift-DR bit order">Shift-DR bit order</item>
+        <item class="JTAG" src="Data register shift bit order">Data register shift bit order</item>
+        <item class="JTAG" src="Data register shift MOST significant bit first">Data register shift MOST significant bit first</item>
+        <item class="JTAG" src="Data register shift LEAST significant bit first">Data register shift LEAST significant bit first</item>
+        <item class="JTAG" src="Show TDI/TDO bit counts">Show TDI/TDO bit counts</item>
+        <item class="JTAG" src="Used to count bits sent during Shift state">Used to count bits sent during Shift state</item>
+        <item class="JTAG" src="Please select inputs for TMS and TCK channels.">Please select inputs for TMS and TCK channels.</item>
+        <item class="JTAG" src="Please select different channels for each input.">Please select different channels for each input.</item>
+        <item class="LIN" src="Standard LIN">Standard LIN</item>
+        <item class="LIN" src="LIN Version">Версия LIN:</item>
+        <item class="LIN" src="Specify the LIN protocol version 1 or 2.">Укажите версию протокола LIN - v1.x или v2.x</item>
+        <item class="LIN" src="Bit Rate (Bits/S)">Скорость (бит/сек)</item>
+        <item class="LIN" src="Specify the bit rate in bits per second.">Укажите скорость передачи бит/сек</item>
+        <item class="Manchester" src="Mode">Режим</item>
+        <item class="Manchester" src="Specify the Manchester Mode">Specify the Manchester Mode</item>
+        <item class="Manchester" src="Manchester">Manchester</item>
+        <item class="Manchester" src="Differential Manchester">Differential Manchester</item>
+        <item class="Manchester" src="Bi-Phase Mark Code (FM1)">Bi-Phase Mark Code (FM1)</item>
+        <item class="Manchester" src="Bi-Phase Space Code (FM0)">Bi-Phase Space Code (FM0)</item>
+        <item class="Manchester" src="Bit Rate (Bits/S)">Скорость (бит/сек)</item>
+        <item class="Manchester" src="Specify the bit rate in bits per second.">Укажите скорость передачи бит/сек</item>
+        <item class="Manchester" src="Specify the Manchester edge polarity (Normal Manchester mode only)">Specify the Manchester edge polarity (Normal Manchester mode only)</item>
+        <item class="Manchester" src="negative edge is binary one">negative edge is binary one</item>
+        <item class="Manchester" src="negative edge is binary zero">negative edge is binary zero</item>
+        <item class="Manchester" src="Select the number of bits per frame">Select the number of bits per frame</item>
+        <item class="Manchester" src="Bit per Transfer">Bit per Transfer</item>
+        <item class="Manchester" src="Bits per Transfer">Bits per Transfer</item>
+        <item class="Manchester" src="Select if the most significant bit or least significant bit is transmitted first">Select if the most significant bit or least significant bit is transmitted first</item>
+        <item class="Manchester" src="Least Significant Bit Sent First">Least Significant Bit Sent First</item>
+        <item class="Manchester" src="Most Significant Bit Sent First">Most Significant Bit Sent First</item>
+        <item class="Manchester" src="Preamble bits to ignore">Preamble bits to ignore</item>
+        <item class="Manchester" src="Specify the number of preamble bits to ignore.">Specify the number of preamble bits to ignore.</item>
+        <item class="Manchester" src="Tolerance">Tolerance</item>
+        <item class="Manchester" src="Specify the Manchester Tolerance as a percentage of period">Specify the Manchester Tolerance as a percentage of period</item>
+        <item class="Manchester" src="% of period (default)">% of period (default)</item>
+        <item class="Manchester" src="% of period">% of period</item>
+        <item class="MIDI" src="General MIDI">General MIDI</item>
+        <item class="Modbus" src="Modbus Mode">Modbus Mode</item>
+        <item class="Modbus" src="Specify which mode of Modbus this is">Specify which mode of Modbus this is</item>
+        <item class="Modbus" src="Modbus/RTU - Master">Modbus/RTU - Master</item>
+        <item class="Modbus" src="Modbus/RTU - Slave">Modbus/RTU - Slave</item>
+        <item class="Modbus" src="Modbus/ASCII - Master">Modbus/ASCII - Master</item>
+        <item class="Modbus" src="Modbus/ASCII - Slave">Modbus/ASCII - Slave</item>
+        <item class="Modbus" src="Bit Rate (Bits/S)">Скорость (бит/сек)</item>
+        <item class="Modbus" src="Specify the bit rate in bits per second.">Укажите скорость передачи бит/сек</item>
+        <item class="Modbus" src="Specify if the serial signal is inverted">Укажите, если сигнал инвертированный</item>
+        <item class="Modbus" src="Non Inverted (Standard)">Прямой ( стандарт )</item>
+        <item class="Modbus" src="Inverted">Инвертированный</item>
+        <item class="Parallel 6800" src="Data is valid on E/Clock rising edge">Data is valid on E/Clock rising edge</item>
+        <item class="Parallel 6800" src="Data is valid on E/Clock falling edge">Data is valid on E/Clock falling edge</item>
+        <item class="Parallel 6800" src="Show decode marker or not">Show decode marker or not</item>
+        <item class="Parallel 6800" src="Show Decode Marker">Show Decode Marker</item>
+        <item class="Parallel 6800" src="Please select at least one channel to use in the parallel bus">Please select at least one channel to use in the parallel bus</item>
+        <item class="PS/2 Keyboard/Mouse" src="PS/2 - Clock">PS/2 - Clock</item>
+        <item class="PS/2 Keyboard/Mouse" src="PS/2 - Data">PS/2 - Data</item>
+        <item class="PS/2 Keyboard/Mouse" src="Device Type">Тип устройства</item>
+        <item class="PS/2 Keyboard/Mouse" src="Keyboard">Keyboard</item>
+        <item class="PS/2 Keyboard/Mouse" src="Mouse (Standard PS/2)">Mouse (Standard PS/2)</item>
+        <item class="PS/2 Keyboard/Mouse" src="Mouse (IntelliMouse)">Mouse (IntelliMouse)</item>
+        <item class="PS/2 Keyboard/Mouse" src="Clock and Data must be unique channels!">Clock and Data must be unique channels!</item>
+        <item class="SDIO" src="Standard SDIO Clock">Standard SDIO Clock</item>
+        <item class="SDIO" src="Standard SDIO CMD">Standard SDIO CMD</item>
+        <item class="SDIO" src="Standard SDIO Data 0">Standard SDIO Data 0</item>
+        <item class="SDIO" src="Standard SDIO Data 1">Standard SDIO Data 1</item>
+        <item class="SDIO" src="Standard SDIO Data 2">Standard SDIO Data 2</item>
+        <item class="SDIO" src="Standard SDIO Data 3">Standard SDIO Data 3</item>
+        <item class="SDIO" src="Sample On">Sample On</item>
+        <item class="SDIO" src="Determines if sample on rising or falling edge">Determines if sample on rising or falling edge</item>
+        <item class="SDIO" src="Read Samples on Falling clock edge">Read Samples on Falling clock edge</item>
+        <item class="SDIO" src="Read Samples on Rising clock edge">Read Samples on Rising clock edge</item>
+        <item class="SDIO" src="Please specify the channels for clock and command">Please specify the channels for clock and command</item>
+        <item class="SDIO" src="Only support 1-bit and 4-bit mode">Only support 1-bit and 4-bit mode</item>
+        <item class="SMBus" src="SMBus data line">SMBus data line</item>
+        <item class="SMBus" src="SMBus clock line">SMBus clock line</item>
+        <item class="SMBus" src="SMBus decode level">SMBus decode level</item>
+        <item class="SMBus" src="Type of decoded SMBus data">Type of decoded SMBus data</item>
+        <item class="SMBus" src="Calculate PEC on packets">Calculate PEC on packets</item>
+        <item class="SMBus" src="true - calculate PEC, false - no PEC on packets">true - calculate PEC, false - no PEC on packets</item>
+        <item class="SMBus" src="Please select an input for the SMBDAT.">Please select an input for the SMBDAT.</item>
+        <item class="SMBus" src="Please select an input for the SMBCLK.">Please select an input for the SMBCLK.</item>
+        <item class="SMBus" src="Please select different inputs for the channels.">Please select different channels for each input.</item>
+        <item class="SPI" src="Bit per Transfer">Bit per Transfer</item>
+        <item class="SPI" src="Bits per Transfer">Bit per Transfer</item>
+        <item class="SPI" src="Bits per Transfer (Standard)">Bits per Transfer (Standard)</item>
+        <item class="SPI" src="Master Out, Slave In">Master Out, Slave In</item>
+        <item class="SPI" src="Master In, Slave Out">Master In, Slave Out</item>
+        <item class="SPI" src="Clock (CLK)">Clock (CLK)</item>
+        <item class="SPI" src="Enable (SS, Slave Select)">Enable (SS, Slave Select)</item>
+        <item class="SPI" src="Most Significant Bit First (Standard)">Most significant bit first</item>
+        <item class="SPI" src="Least Significant Bit First">Least significant bit first</item>
+        <item class="SPI" src="Show decode marker or not">Show decode marker or not</item>
+        <item class="SPI" src="Show Decode Marker">Show Decode Marker</item>
+        <item class="SPI" src="Clock is Low when inactive (CPOL = 0)">Clock is Low when inactive (CPOL = 0)</item>
+        <item class="SPI" src="Clock is High when inactive (CPOL = 1)">Clock is High when inactive (CPOL = 1)</item>
+        <item class="SPI" src="Data is Valid on Clock Leading Edge (CPHA = 0)">Data is Valid on Clock Leading Edge (CPHA = 0)</item>
+        <item class="SPI" src="Data is Valid on Clock Trailing Edge (CPHA = 1)">Data is Valid on Clock Trailing Edge (CPHA = 1)</item>
+        <item class="SPI" src="Enable line is Active Low (Standard)">Enable line is Active Low (Standard)</item>
+        <item class="SPI" src="Enable line is Active High">Enable line is Active High</item>
+        <item class="SPI" src="Please select different channels for each input.">Please select different channels for each input.</item>
+        <item class="SPI" src="Please select at least one input for either MISO or MOSI.">Please select at least one input for either MISO or MOSI.</item>
+        <item class="SWD" src="Please select an input for SWDIO channel.">Please select an input for SWDIO channel.</item>
+        <item class="SWD" src="Please select an input for SWCLK channel.">Please select an input for SWCLK channel.</item>
+        <item class="SWD" src="Please select different inputs for the channels.">Please select different channels for each input.</item>
+        <item class="UART/RS232/485" src="Standard Async Serial">Стандартный асинхронный последовательный порт</item>
+        <item class="UART/RS232/485" src="Bit Rate (Bits/S)">Скорость (бит/сек)</item>
+        <item class="UART/RS232/485" src="Specify the bit rate in bits per second.">Укажите скорость передачи бит/сек</item>
+        <item class="UART/RS232/485" src="Use Autobaud">Автоопределение</item>
+        <item class="UART/RS232/485" src="Automatically find the minimum pulse width and calculate the baud rate according to this pulse width.">Автоматический поиск минимальной ширины импульса и расчёт скорости в соответствии с этим.</item>
+        <item class="UART/RS232/485" src="Inverted (RS232)">Инвертированный (RS232)</item>
+        <item class="UART/RS232/485" src="Specify if the serial signal is inverted">Укажите, если сигнал инвертированный</item>
+        <item class="UART/RS232/485" src="Select the number of bits per frame">Select the number of bits per frame</item>
+        <item class="UART/RS232/485" src="Bit per Transfer">Bit per Transfer</item>
+        <item class="UART/RS232/485" src="Bits per Transfer">Bits per Transfer</item>
+        <item class="UART/RS232/485" src="Bits per Transfer (Standard)">Bits per Transfer (Standard)</item>
+        <item class="UART/RS232/485" src="Specify the number of stop bits.">Specify the number of stop bits.</item>
+        <item class="UART/RS232/485" src="Stop Bit (Standard)">Stop bit (Standard)</item>
+        <item class="UART/RS232/485" src="Stop Bits">Stop Bits</item>
+        <item class="UART/RS232/485" src="Specify None, Even, or Odd Parity.">Specify None, Even, or Odd Parity.</item>
+        <item class="UART/RS232/485" src="No Parity Bit (Standard)">No Parity Bit (Standard)</item>
+        <item class="UART/RS232/485" src="Even Parity Bit">Even Parity Bit</item>
+        <item class="UART/RS232/485" src="Odd Parity Bit">Odd Parity Bit</item>
+        <item class="UART/RS232/485" src="Parity Bit is Fixed 0">Parity Bit is Fixed 0</item>
+        <item class="UART/RS232/485" src="Parity Bit is Fixed 1">Parity Bit is Fixed 1</item>
+        <item class="UART/RS232/485" src="Select if the most significant bit or least significant bit is transmitted first">Select if the most significant bit or least significant bit is transmitted first</item>
+        <item class="UART/RS232/485" src="Least Significant Bit Sent First (Standard)">Least Significant Bit Sent First</item>
+        <item class="UART/RS232/485" src="Most Significant Bit Sent First">Most Significant Bit Sent First</item>
+        <item class="UART/RS232/485" src="Special Mode">Special Mode</item>
+        <item class="UART/RS232/485" src="Specify if this is normal, or MP serial (aka multi-drop, MP, multi-processor, 9-bit serial)">Specify if this is normal, or MP serial (aka multi-drop, MP, multi-processor, 9-bit serial)</item>
+        <item class="UART/RS232/485" src="None">Нет</item>
+        <item class="UART/RS232/485" src="MP Mode: Address indicated by MSB=0">MP Mode: Address indicated by MSB=0</item>
+        <item class="UART/RS232/485" src="MDB Mode: Address indicated by MSB=1">MDB Mode: Address indicated by MSB=1</item>
+        <item class="UART/RS232/485" src="Sorry, but we don't support using parity at the same time as MP mode.">Sorry, but we don't support using parity at the same time as MP mode.</item>
+        <item class="USB LS/FS" src="USB D+ (green)">USB D+ (green)</item>
+        <item class="USB LS/FS" src="USB D- (white)">USB D- (white)</item>
+        <item class="USB LS/FS" src="USB bit-rate">Скорость</item>
+        <item class="USB LS/FS" src="USB data bit-rate">USB data bit-rate</item>
+        <item class="USB LS/FS" src="Low speed (1.5 Mbps)">низкая (1.5 Мбит/сек) - LS</item>
+        <item class="USB LS/FS" src="Full speed (12 Mbps)">высокая (12 Мбитс/сек) - FS</item>
+        <item class="USB LS/FS" src="USB decode level">USB decode level</item>
+        <item class="USB LS/FS" src="Type of decoded USB output">Type of decoded USB output</item>
+        <item class="USB LS/FS" src="EP0 Control transfers"></item>
+        <item class="USB LS/FS" src="Packets"></item>
+        <item class="USB LS/FS" src="Bytes"></item>
+        <item class="USB LS/FS" src="Signals"></item>
+        <item class="USB LS/FS" src="Please select an input for the D+ channel.">Please select an input for the D+ channel.</item>
+        <item class="USB LS/FS" src="Please select an input for the D- channel.">Please select an input for the D- channel.</item>
+        <item class="USB LS/FS" src="Please select different inputs for the D- and D+ channels.">Please select different inputs for the D- and D+ channels.</item>
+    </analyzers>
+</language>
