@@ -44,8 +44,10 @@ int main(int argc,char* argv[]){
 
 	while (1)
 	{
-		WitReadReg(AX, 12);
-		printf("WitReadReg passed\n");
+		uint8_t debug = 0;
+		WitReadReg(AX, 12, &debug);
+		if(debug)
+			printf("WitReadReg passed\n");
 		usleep(500000);
 		if(s_cDataUpdate)
 		{

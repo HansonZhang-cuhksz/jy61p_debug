@@ -331,8 +331,10 @@ int32_t WitWriteReg(uint32_t uiReg, uint16_t usData)
 }
 int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
 {
-    uint8_t debug = 0;
-
+    return WitReadReg(uiReg, uiReadNum, 0);
+}
+int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum, uint8_t* debug)
+{
     uint16_t usTemp, i;
     uint8_t ucBuff[8];
     if((uiReg + uiReadNum) >= REGSIZE)return WIT_HAL_INVAL;
@@ -387,7 +389,7 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
                 }
               if(p_WitI2cReadFunc(s_ucAddr << 1, uiReg, s_ucWitDataBuff, usTemp) == 1)
               {
-                    debug = 1;
+                    *debug = 1;
                   if(p_WitRegUpdateCbFunc == NULL){
                         return WIT_HAL_EMPTY;
                   }
@@ -401,10 +403,10 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
 		default: 
                  return WIT_HAL_INVAL;
     }
-    if(debug)
+    if(*debug)
         printf("switch done\n");
     s_uiReadRegIndex = uiReg;
-    if(debug)
+    if(*debug)
         printf("s_uiReadRegIndex got\n");
 
     return WIT_HAL_OK;
