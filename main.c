@@ -45,10 +45,11 @@ int main(int argc,char* argv[]){
 	while (1)
 	{
 		WitReadReg(AX, 12);
+		printf("WitReadReg passed\n");
 		usleep(500000);
 		if(s_cDataUpdate)
 		{
-			printf("\r\n");
+			printf("Entering...\r\n");
 			for(i = 0; i < 3; i++)
 			{
 				fAcc[i] = sReg[AX+i] / 32768.0f * 16.0f;

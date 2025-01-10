@@ -380,13 +380,11 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
                     return WIT_HAL_EMPTY;
                 }
               usTemp = uiReadNum << 1;
-              printf("usTemp = %d\n", usTemp);
               if(WIT_DATA_BUFF_SIZE < usTemp){
                     return WIT_HAL_NOMEM;
                 }
               if(p_WitI2cReadFunc(s_ucAddr << 1, uiReg, s_ucWitDataBuff, usTemp) == 1)
               {
-                printf("p_WitI2cReadFunc passed");
                   if(p_WitRegUpdateCbFunc == NULL){
                         return WIT_HAL_EMPTY;
                   }
@@ -394,9 +392,7 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
                   {
                       sReg[i+uiReg] = ((uint16_t)s_ucWitDataBuff[(i<<1)+1] << 8) | s_ucWitDataBuff[i<<1];
                   }
-                  printf("for loop passed");
                   p_WitRegUpdateCbFunc(uiReg, uiReadNum);
-                  printf("p_WitRegUpdateCbFunc passed");
               }
 			break;
 		default: 
