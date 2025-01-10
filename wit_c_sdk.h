@@ -97,8 +97,8 @@ void WitCanDataIn(uint8_t ucData[8], uint8_t ucLen);
 typedef void (*RegUpdateCb)(uint32_t uiReg, uint32_t uiRegNum);
 int32_t WitRegisterCallBack(RegUpdateCb update_func);
 int32_t WitWriteReg(uint32_t uiReg, uint16_t usData);
-int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum);
 int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum, uint8_t* debug);
+int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum);
 int32_t WitInit(uint32_t uiProtocol, uint8_t ucAddr);
 void WitDeInit(void);
 

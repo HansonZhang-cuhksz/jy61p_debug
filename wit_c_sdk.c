@@ -329,10 +329,6 @@ int32_t WitWriteReg(uint32_t uiReg, uint16_t usData)
     }
     return WIT_HAL_OK;
 }
-int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
-{
-    return WitReadReg(uiReg, uiReadNum, 0);
-}
 int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum, uint8_t* debug)
 {
     uint16_t usTemp, i;
@@ -411,7 +407,10 @@ int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum, uint8_t* debug)
 
     return WIT_HAL_OK;
 }
-
+int32_t WitReadReg(uint32_t uiReg, uint32_t uiReadNum)
+{
+    return WitReadReg(uiReg, uiReadNum, 0);
+}
 
 int32_t WitInit(uint32_t uiProtocol, uint8_t ucAddr)
 {
