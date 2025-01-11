@@ -45,7 +45,7 @@ int main(int argc,char* argv[]){
 	while (1)
 	{
 		int reg_idx;
-		scanf("%d", &reg_idx);
+		scanf("Read reg:> %d", &reg_idx);
 		printf("Reading %d registers\n", reg_idx);
 		WitReadReg(reg_idx, 1);
 		printf("%d", sReg[reg_idx]);
