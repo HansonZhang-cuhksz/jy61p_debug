@@ -1,7 +1,0 @@
-
-  Hello, and welcome to KingstVIS for Linux!
-  Before using the software, you'll need to give the application permission to access the device (otherwise you'll have to launch the application with sudo). To do this, unplug any attached device, and then run the 'Driver/install_driver.sh' or 'install.sh'(this file also add a startup shortcut and launch the application) from the command line.  After that you should be good to go.
-
-  欢迎使用Linux版KingstVIS软件！
-  在使用之前，你需要为本软件提供访问硬件设备的权限（否则你需要使用sudo启动软件）。拔掉已插入的设备，通过命令行运行脚本文件'Driver/install_driver.sh'或'install.sh'（该文件还会同时创建启动快捷方式并启动软件），之后你就可以正常使用了。
-
