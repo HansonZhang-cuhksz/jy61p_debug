@@ -35,7 +35,7 @@ int main(int argc,char* argv[]){
 	fd = i2c_open(argv[1], 3, 3);
 	if( fd < 0)printf("open %s fail\n", argv[1]);
 	else printf("open %s success\n", argv[1]);
-	WitInit(WIT_PROTOCOL_I2C, 0x51);
+	WitInit(WIT_PROTOCOL_I2C, 0x50);
 	WitI2cFuncRegister(i2c_write, i2c_read);
 	WitRegisterCallBack(CopeSensorData);
 	WitDelayMsRegister(Delayms);
